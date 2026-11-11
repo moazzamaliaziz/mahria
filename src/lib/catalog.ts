@@ -1,0 +1,96 @@
+import type { MenuItem } from "./types";
+
+// Foodpanda e1sq reference prices, checked 2026-11-08. Not approved direct-order prices.
+export const previewMenu: MenuItem[] = [
+  {
+    id: "chicken-pulao",
+    name: "Chicken Pulao with Shami",
+    nameUr: "شامی کے ساتھ چکن پلاؤ",
+    descriptionUr: "خوشبودار چاول، نرم چکن اور روایتی شامی کباب۔ گھر جیسا مانوس ذائقہ۔",
+    description:
+      "Fragrant rice, tender chicken and a classic shami kabab. A plate that feels like home.",
+    category: "Pulao",
+    pricePaisa: 68000,
+    image: "/images/pulao.jpg",
+    imageAlt:
+      "Mehria chicken pulao with shami kabab, from its public menu listing",
+    badge: "The signature",
+    portion: "Single serving",
+    available: true,
+  },
+  {
+    id: "special-pulao",
+    name: "Mehria Special Pulao",
+    nameUr: "مہریہ اسپیشل پلاؤ",
+    descriptionUr: "مہریہ کا خاص چکن پلاؤ، بھرپور کھانے کے شوقین افراد کے لیے۔",
+    description:
+      "Our namesake chicken pulao, with that little something extra for a proper feast.",
+    category: "Pulao",
+    pricePaisa: 78000,
+    image: "/images/special-pulao.jpg",
+    imageAlt: "Mehria special chicken pulao, from its public menu listing",
+    badge: "Mehria special",
+    portion: "Single serving",
+    available: true,
+  },
+  {
+    id: "chicken-biryani",
+    name: "Chicken Biryani",
+    nameUr: "چکن بریانی",
+    descriptionUr: "خوشبودار چاول اور چکن، مسالوں کے بھرپور ذائقے کے ساتھ۔",
+    description:
+      "A little more spice, a little more colour. Chicken and fragrant rice in every forkful.",
+    category: "From the kitchen",
+    pricePaisa: 63000,
+    image: "/images/biryani.jpg",
+    imageAlt: "Chicken biryani, from Mehria's public menu listing",
+    badge: "Spice things up",
+    portion: "Single serving",
+    available: true,
+  },
+  {
+    id: "shami-kabab",
+    name: "Shami Kabab",
+    nameUr: "شامی کباب",
+    descriptionUr: "پلاؤ کا بہترین ساتھ۔ دسترخوان کے لیے بارہ مسالے دار شامی کباب۔",
+    description:
+      "The perfect partner to pulao. A dozen warmly spiced shami kababs for the table.",
+    category: "From the kitchen",
+    pricePaisa: 78000,
+    image: "/images/kabab.jpg",
+    imageAlt: "Shami kababs, from Mehria's public menu listing",
+    badge: null,
+    portion: "12 pieces",
+    available: true,
+  },
+  {
+    id: "raita",
+    name: "Raita",
+    nameUr: "رائتہ",
+    descriptionUr: "ٹھنڈا، ملائم اور تازگی بھرا۔ آپ کے پسندیدہ چاولوں کا مزہ بڑھائے۔",
+    description:
+      "Cool, creamy and refreshing. The finishing touch for your favourite rice dish.",
+    category: "Sides & sweets",
+    pricePaisa: 6000,
+    image: "/images/raita.jpg",
+    imageAlt: "Raita, from Mehria's public menu listing",
+    badge: null,
+    portion: "One serving",
+    available: true,
+  },
+  {
+    id: "zarda",
+    name: "Zarda",
+    nameUr: "زردہ",
+    descriptionUr: "سنہری میٹھے چاولوں کا روایتی ذائقہ۔ اچھے کھانے کا میٹھا اختتام۔",
+    description:
+      "A golden, sweet rice classic. Because every good meal deserves a sweet ending.",
+    category: "Sides & sweets",
+    pricePaisa: 29900,
+    image: "/images/zarda.jpg",
+    imageAlt: "Zarda sweet rice, from Mehria's public menu listing",
+    badge: "A sweet finish",
+    portion: "Single serving",
+    available: true,
+  },
+];

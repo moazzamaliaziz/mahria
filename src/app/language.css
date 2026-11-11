@@ -1,0 +1,44 @@
+:root {
+  --font-urdu: "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+}
+html[lang="ur"] body {
+  font-family: var(--font-urdu);
+}
+html[lang="ur"] h1,
+html[lang="ur"] h2,
+html[lang="ur"] h3,
+html[lang="ur"] em {
+  font-family: var(--font-urdu);
+  letter-spacing: 0;
+  font-style: normal;
+}
+html[lang="ur"] .eyebrow {
+  letter-spacing: 0;
+  line-height: 2;
+}
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  background: transparent;
+  border: 1px solid #ddd1bf;
+  border-radius: 6px;
+  padding: 7px 10px;
+  min-height: 35px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.language-toggle [lang="ur"] {
+  font-family: var(--font-urdu);
+  font-size: 12px;
+}
+.language-toggle:hover {
+  background: #eee4d0;
+}
+[dir="ltr"].isolated-number,
+.isolated-number {
+  unicode-bidi: isolate;
+  direction: ltr;
+  display: inline-block;
+}

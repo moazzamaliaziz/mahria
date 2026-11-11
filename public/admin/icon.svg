@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <title>Mehria Kitchen monogram</title>
+  <path fill="#fbf7ed" d="M0 0h512v512H0z"/>
+  <rect x="28" y="28" width="456" height="456" rx="112" fill="#a92526"/>
+  <rect x="44" y="44" width="424" height="424" rx="98" stroke="#fbf7ed" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M144 331V190l60 82 60-82v141M281 264l78-74m-78 74 78 67" stroke="#fbf7ed" stroke-width="25" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M203 371h107" stroke="#fbf7ed" stroke-width="9" stroke-linecap="round"/>
+  <path d="m250 125 6-11 6 11-6 11z" fill="#fbf7ed"/>
+</svg>

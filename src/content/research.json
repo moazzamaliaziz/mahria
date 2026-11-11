@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-11-08",
+  "client": {
+    "name": "Mehria Murgh Pulao",
+    "profile": "https://share.google/6sHmmxSq5H5QdrE31",
+    "identityCaveat": "The shared Google URL resolves to a search for Mehria Pulao. G-11 Markaz is the best-corroborated business match; the client must confirm the intended branch.",
+    "address": "Al Ghaffar Mall/Plaza, G-11 Markaz, Islamabad, Pakistan",
+    "addressCaveat": "Listings conflict between Shop 1-B, Shop 2 basement and Shop 1-2. Exact shop number omitted from website.",
+    "phone": "+92 334 6902505",
+    "phoneSources": [
+      "https://yandex.com/maps/org/mehria_pulao/70342774696/",
+      "https://www.facebook.com/foodsmehria/posts/mehria-murgh-pulaoalghaffar-plaza-g-11-markaz-islmabadfor-order-0334-6902505/108470820947321/"
+    ],
+    "publishedHours": "Daily 11:00-01:00 Asia/Karachi; call to confirm holidays",
+    "hoursSource": "https://yandex.com/maps/org/mehria_pulao/70342774696/",
+    "services": ["Takeaway", "Delivery listed on Foodpanda"],
+    "unverified": [
+      "Legal entity",
+      "Exact shop unit",
+      "Client ownership of social accounts",
+      "Direct-order menu prices",
+      "Image reuse rights",
+      "Current operation of other branches",
+      "Delivery areas",
+      "Tax treatment"
+    ],
+    "sources": [
+      "https://www.foodpanda.pk/restaurant/e1sq/mehria-murgh-pulao",
+      "https://explorerestaurant.com/restaurant/mehria-murgh-pulao/",
+      "https://yandex.com/maps/org/mehria_pulao/70342774696/"
+    ]
+  },
+  "menu": {
+    "source": "https://www.foodpanda.pk/restaurant/e1sq/mehria-murgh-pulao",
+    "currency": "PKR",
+    "pricing": "Undiscounted platform reference prices only. Do not automatically approve for direct ordering. Temporary 10% promotion intentionally excluded.",
+    "otherPublishedItems": [
+      { "name": "Sada Pulao", "price": 400 },
+      { "name": "Salad", "price": 60 },
+      { "name": "Special chicken pulao without kabab", "price": 730 },
+      { "name": "Mehria Special Chicken Biryani", "price": 730 },
+      { "name": "Plain Biryani", "price": 399 },
+      { "name": "Extra chicken piece", "price": 250 },
+      { "name": "Drink 370 ml", "price": 110 },
+      { "name": "Drink 500 ml / can", "price": 150 },
+      { "name": "Drink 1 litre", "price": 220 },
+      { "name": "Drink 1.5 litres", "price": 270 }
+    ],
+    "conflict": "Foodpanda f465 is titled Blue Area but lists a G-11 basement address and different prices. Not merged into this catalog."
+  },
+  "inspiration": [
+    {
+      "url": "https://dopepk.com/",
+      "observed": "Large promotional imagery, strong product merchandising, collection navigation and visible basket. Fashion site, not a restaurant.",
+      "applied": "Editorial hero and image-first menu; no copied content or assets."
+    },
+    {
+      "url": "https://www.hardees.com.pk/",
+      "observed": "Yellow/black branding, location-first ordering, category tabs, search, item customization and mobile cart ribbon. Examined HTML/config; rendered interactions not independently tested.",
+      "applied": "Searchable categories, high-contrast calls to action and mobile bag access."
+    },
+    {
+      "url": "https://www.timhortons.com.pk/islamabad/",
+      "observed": "Simple navigation, strong restaurant branding, branch photography, addresses, hours, map links and external ordering.",
+      "applied": "Dedicated branch details, published hours, map and platform-order links."
+    },
+    {
+      "url": "https://www.dominos.com.pk/",
+      "observed": "Client-rendered ordering application; source metadata emphasizes deals and delivery. Full interactive flow could not be established from fetched HTML.",
+      "applied": "Short menu-to-bag-to-checkout path; no claim to have audited its complete ordering flow."
+    }
+  ],
+  "assets": {
+    "usage": "Local prototype copies of merchant/directory photographs; public availability is not a reuse licence. Obtain client permission or replace with client-owned photos before publication.",
+    "mehria-food.jpg": "https://images.deliveryhero.io/image/fd-pk/LH/e1sq-hero.jpg",
+    "mehria-table.jpg": "https://explorerest.sgp1.cdn.digitaloceanspaces.com/restaurant/9103/cover/mehria-murgh-pulao-coverjpeg.jpeg",
+    "mehria-storefront.jpg": "https://avatars.mds.yandex.net/get-altay/14093276/2a00000191bc49022d292fe34f103d9cd984/XXL_height",
+    "pulao.jpg": "https://foodpanda.dhmedia.io/image/fd-pk/products/31432471.jpg",
+    "special-pulao.jpg": "https://foodpanda.dhmedia.io/image/fd-pk/products/31432798.jpg",
+    "biryani.jpg": "https://foodpanda.dhmedia.io/image/fd-pk/products/31432407.jpg",
+    "kabab.jpg": "https://foodpanda.dhmedia.io/image/fd-pk/products/31433332.jpg",
+    "raita.jpg": "https://foodpanda.dhmedia.io/image/fd-pk/Products/31433372.jpg",
+    "zarda.jpg": "https://foodpanda.dhmedia.io/image/fd-pk/Products/31433376.jpg",
+    "productPhotoCaveats": "Shami photo shows four kababs although the listed serving is 12. Raita photo is low quality. Retain serving-discrepancy notice and replace with client-owned photography before launch.",
+    "brand": "Custom typographic concept, not the verified business logo."
+  },
+  "launchChecks": [
+    "Confirm client identity and G-11 branch",
+    "Approve brand concept and photo rights",
+    "Confirm phone, shop unit and hours",
+    "Approve all direct-order prices including tax",
+    "Configure MySQL, APP_URL and RATE_LIMIT_SECRET",
+    "Approve catalog records explicitly",
+    "Set delivery areas and fee only if confirmed",
+    "Enable ordering only once order handling and privacy policy are approved",
+    "Use HTTPS and apply operational rate limiting at the reverse proxy",
+    "Set data retention and deletion policy"
+  ]
+}
